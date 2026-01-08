@@ -4,3 +4,5 @@ $reach = $LASTEXITCODE -eq 0
 Write-Host $(if ($reach){'BAIDU REACHABLE'}else{'BAIDU UNREACHABLE'}) `
             -ForegroundColor $(if ($reach){'Green'}else{'Red'})
 Start-Sleep -Seconds 2
+
+#我是彩蛋
